@@ -18,7 +18,7 @@
 			</div>
 			<div class="menubar">
 				<ul class="menu">
-					<li class="selected"><a href="#">Главная</a></li>
+					<li class="selected"><a href="index.php">Главная</a></li>
 					<li> <a href="#">Мужская одежда</a></li>
 					<li> <a href="#">Женская одежда</a></li>
 					<li> <a href="#">Детская одежда</a></li>
@@ -26,24 +26,25 @@
 				</ul>
 			</div>
 		</div>
-		<form action="testreg.php" method="post">
-		<p>
-			<label>Login:<br></label>
-			<input name="login" type="text" size="15" maxlength="15">
-		</p>
+		<form action="login.php" method="post">
+			<p>
+				<label>Login:<br></label>
+				<input name="login" type="text" size="15" maxlength="15">
+			</p>
 
-		<p>
-			<label>Password:<br></label>
-			<input name="password" type="password" size="15" maxlength="15">
-		</p>
+			<p>
+				<label>Password:<br></label>
+				<input name="password" type="password" size="15" maxlength="15">
+			</p>
 
-		<p>
-			<input type="submit" name="submit" value="Войти">
+			<p>
+				<input type="submit" name="submit" value="Войти">
 
-			<!--**** Кнопочка (type="submit") отправляет данные на страничку testreg.php ***** --> 
-			<br>
-			<!--**** ссылка на регистрацию, ведь как-то же должны гости туда попадать ***** --> 
-			<a href="reg.php">Registration</a> 
-		</p></form>	
-</body>
-</html>
+				<!--**** Кнопочка (type="submit") отправляет данные на страничку testreg.php ***** --> 
+				<br>
+				<!--**** ссылка на регистрацию, ведь как-то же должны гости туда попадать ***** --> 
+				 
+			</p></form>	
+			<a href="reg.php">Registration</a>
+		</body>
+		</html>
