@@ -2,7 +2,7 @@
 <html lang="en,ru">
 <head>
 	<meta charset="UTF-8">
-	<title>HomeSecondHand</title>
+	<title>MyShopOnline</title>
 	<meta name="descripton" content="Мой интернет магазин"/>
 	<meta name="keywords" content="Одежда,товары, покупки онлайн">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -12,7 +12,7 @@
 	<div class="header">
 		<div class="logo">
 			<div class="logo_text">
-				<h1><a href="index.html">Мой Магазин</a></h1>
+				<h1><a href="index.php">Мой Магазин</a></h1>
 				<h4>Добро пожаловать</h4>
 			</div>	
 		</div>
