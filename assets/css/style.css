@@ -1,56 +1,33 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-.main{
-	margin-left: 0;
-	margin-right: 0;
-	background-color: red; 
-}
 .header{
-	font-size: 40px;
-	height: 150px;
-	background-color: blue;
-	margin-left: 25px;
-	margin-right: 25px;
+	background-color: #FF4500; 
+	height: 100px;
+}
+.logo {
+	padding-top: 10px; 
+}
+.logo h1 a{
+padding-left: 50%;
+text-decoration: none;
 }
 
-.logo_text h1 , a {
-	font: normal 100% 'century gothic',arial;
-	color: #fff;
-	letter-spacing: 0.1em;
-	text-decoration: none;
+.main,.logo, .menubar, .footer{
+	margin-left: auto;
+	margin-right: auto;
 }
-.logo_text{
-	padding-left: 20px;
-}
-.logo_text h2{
-	color: white;	
-}	
+
 .menubar{
-	width: auto;
-	height: 55px;
+	width: 900px;
+	height: 40px;
 }
 ul.menu{
-	float: left;
+	float: right;
 }
 ul.menu li{
-	padding-left: 20px;
 	float: left;
-	list-style: none;
+	padding: 0,0,0,9px;
+	list-style-type: none;
 }
-
-ul.menu li a {
-	font-size: 20px;
-	color: white;
-	padding: 0 0 0 9px;
-	height: 20;
-	list-style: none;
-	text-decoration: none;
-}
-ul.menu li.selected a{
-	color: red;
-}
-ul.menu li a:hover{
-	color: red;
+ul.menu li a{
+	display: block;
+	padding: 6px,35px,5px,,28px;
 }
