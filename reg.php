@@ -23,7 +23,6 @@
 
 <?php
 $connection = mysqli_connect('localhost', 's97248pw_beta', '*63K%ACX', 's97248pw_beta') or die(mysqli_error($connection));
-
 if (isset($_POST['submit'])) 
 {
 	if (empty($_POST['login'])) 
@@ -37,7 +36,7 @@ if (isset($_POST['submit']))
 	else 
 	{
 		$login = $_POST['login'];             
-		$password = $_POST['password']);
+		$password = $_POST['password'];
 		
 		$query = "INSERT INTO `users` (login, password)
 		VALUES ('$login', '$password')";
@@ -46,7 +45,6 @@ if (isset($_POST['submit']))
 		$info_reg = 'Вы успешно зарегистрировались!';
 	}
 }
-
 $info_reg = isset($info_reg) ? $info_reg : NULL;
 echo $info_reg;
 ?>

@@ -39,31 +39,30 @@
 		</div>
 	</div>
 	<div class="content">
-	<button class="show_popup" rel="popup1">Вход</button>
-	<div class="overlay_popup"></div>
-	<div class="auth" id="popup1">
-		<div class="object">
-			<form action="login.php" method="post">
-				<p>
-					<label>Login:<br></label>
-					<input name="login" type="text" size="15" maxlength="15">
-				</p>
-				<p>
-					<label>Password:<br></label>
-					<input name="password" type="password" size="15" maxlength="15">
-				</p>
+		<button class="show_popup" rel="popup1">Вход</button>
+		<div class="overlay_popup"></div>
+		<div class="auth" id="popup1">
+			<div class="object">
+				<form action="login.php" method="post">
+					<p>
+						<label>Login:<br></label>
+						<input name="login" type="text" size="15" maxlength="15">
+					</p>
+					<p>
+						<label>Password:<br></label>
+						<input name="password" type="password" size="15" maxlength="15">
+					</p>
 
-				<p>
-					<input type="submit" name="submit" value="Войти">
-					<br>
-				</p>
-			</form>
-		</div>		
+					<p>
+						<input type="submit" name="submit" value="Войти">
+						<br>
+					</p>
+				</form>
+			</div>
+			<a href="reg.php">Регистрация</a>		
+		</div>
 	</div>
-
-	<a href="reg.php">Registration</a>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
-<script src="scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
+	<script src="scripts.js"></script>
 </body>
 </html>
