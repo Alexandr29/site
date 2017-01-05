@@ -67,3 +67,46 @@ ul.sub > li > a:hover {
 ul.menu > li:hover > ul.sub {
     display: block;
 }
+.content {
+	text-align: center;
+}
+.object{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	background-color: #eee;
+	padding: 50px 70px;
+}
+.overlay_popup{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background:gray;
+	opacity: 0.5;
+}
+
+.auth {
+	display: none;
+	position: relative;
+	z-index: 1000;
+	margin:0 25% 0 25%;
+  width:50%;
+}
+.auth label{
+font-size: 25px;
+}
+button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}

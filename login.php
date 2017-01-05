@@ -2,32 +2,49 @@
 session_start();
 ?>
 
-<html>
+<!DOCTYPE html>
+<html lang="en,ru">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>Вход на сайт</title>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <meta name = "description" content = "Гитара и всё что с ней связано"/>
+    <meta name = "keywords" content = "Табы, аккорды, ноты, гитара, песни"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<div class="main">
+        <div class="header">
+            <div class="logo">
+                <h1><a href="index.php">GuitarHub</a></h1>
+            </div>
+            <div class="menubar">
+                <ul class="menu">
+                    <li class="selected">
+                        <a href="index.php">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости </a>
+                        <ul class="sub">
+                            <li><a href="#">Продукты</a></li>
+                            <li><a href="#">Команда</a></li>
+                        </ul>
 
-<form action="login.php" method="POST" />
-    <table>
-        <tr>
-            <td>Введите логин:</td>
-            <td><input type="text" name="login" /></td>
-        </tr>
-        <tr>
-            <td>Введите пароль:</td>
-            <td><input type="password" name="password" /></td>
-        </tr>
-        <tr>
-            <td colspan="2"><input class="button" type="submit" value="Войти" name="submit" /></td> 
-        </tr>
-    </table>
-</form>
-<a href="reg.php">Registration</a>
+                    </li>
+                    <li><a href="#">Материалы </a>
+                        <ul class="sub">
+                            <li><a href="#">Продукты</a></li>
+                            <li><a href="#">Команда</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Магазин </a></li>
+                    <li><a href="#">Информация </a></li>
+                </ul>   
+            </div>
+        </div>
+</div>
 
 <?php
-$connection = mysqli_connect('localhost', 's97248pw_beta', 'JOker290497', 's97248pw_beta') or die(mysqli_error());
+$connection = mysqli_connect('localhost', 's97248pw_beta', '*63K%ACX', 's97248pw_beta') or die(mysqli_error());
 
 if (isset($_POST['submit'])) 
 {

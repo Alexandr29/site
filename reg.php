@@ -37,7 +37,7 @@ if (isset($_POST['submit']))
 	else 
 	{
 		$login = $_POST['login'];             
-		$password = md5($_POST['password']);
+		$password = $_POST['password']);
 		
 		$query = "INSERT INTO `users` (login, password)
 		VALUES ('$login', '$password')";
