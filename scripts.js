@@ -7,12 +7,16 @@
 		rightArrow.addEventListener('click', moveForward);
 
 		function moveBackward(){
-			alert('left');
+			var image = document.getElementById('image');
+			init--;
+			if (init == 0) {init = 4}
+			image.setAttribute('src','assets/img/'+ init+'.jpg');
 		};
 
 		function moveForward(){
 			var image = document.getElementById('image');
 			init++;
+			if (init > 4) {init = 1}
 			image.setAttribute('src','assets/img/'+ init+'.jpg');
 		};
 })();

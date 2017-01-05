@@ -4,7 +4,7 @@
 }
 .header{
 	background-color: #FF4500; 
-	height: 150px;
+	height: 110px;
 	width: 100%;
 	font-size: 0.8em;
 	margin-left: 0px;
@@ -105,11 +105,12 @@ ul.menu > li:hover > ul.sub {
 	font-size: 25px;
 }
 button {
+	float: right;
 	border-radius: 5px;
-	padding: 15px 25px;
+	margin-right: 75px;
+	padding: 0px 25px;
 	font-size: 22px;
 	text-decoration: none;
-	margin: 20px;
 	color: red;
 	position: relative;
 	display: inline-block;
