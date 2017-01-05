@@ -1,12 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 .header{
 	background-color: #FF4500; 
 	height: 150px;
+	width: 100%;
 	font-size: 0.8em;
 	margin-left: 0px;
 	margin-right: 0px;
-	min-width: 900px;
+	min-width: 500px;
 }
-.main, .header ,.logo{
+.main, .header , .logo{
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -110,10 +115,37 @@ button {
 	display: inline-block;
 	cursor: pointer;
 }
-.auth a{
+.object a{
 	font-size: 22px;
 	text-decoration: none;
 	margin: 20px;
 	color: red;
 	cursor: pointer;
 }
+#galleryWrapper{
+	width: 100%;
+}
+#gallery{
+	float: left;
+	width: 90%;
+}
+#gallery img{
+	width: 100%;
+}
+.arrowBox{
+	float: left;
+	width: 5%;
+
+}
+.arrowBox img{
+	margin-top: 470%;
+	width: 100%;
+} 
+.arrowBox img:hover{
+	width: 95%;
+	cursor: pointer;
+} 
+.arrowBox img:active{
+	width: 80%;
+} 
+
