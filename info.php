@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<div class="main">
+<div class="main">
 		<div class="header">
 			<div class="logo">
 				<h1><a href="index.php">GuitarHub</a></h1>
@@ -62,12 +62,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="galleryWrapper">
-		<div class="arrowBox"><img id="leftArrow" src="assets/img/left.png"></img></div>
-		<div id="gallery"><img id="image" src="assets/img/1.jpg"></img></div>
-		<div class="arrowBox"><img  id="rightArrow" src="assets/img/right.png"></img></div>
-	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
-	<script src="scripts.js"></script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1686.8623839245781!2d36.23084722145314!3d50.007604579088614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1483647375953" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 </body>
 </html>

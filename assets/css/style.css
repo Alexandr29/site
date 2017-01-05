@@ -149,4 +149,8 @@ button {
 .arrowBox img:active{
 	width: 80%;
 } 
+iframe{
+	padding-left: 50px;
+	padding-top: 50px;
+}
 
